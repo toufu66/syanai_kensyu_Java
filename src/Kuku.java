@@ -25,15 +25,17 @@ if (i != 10) {
 }else {
 
 	if ((ans == usrAns)) {
-		out.printf("正解です。これで終了です\n",10-i);
+		out.printf("正解です。これで終了です\n\n",10-i);
 		cnt++;
 	}else  {
-		out.printf("残念、間違いです。これで終了です\n",10-i);
+		out.printf("残念、間違いです。これで終了です\n\n",10-i);
 	}
 
 }
 		}
-		out.printf("10問中%d 問 正解です", cnt);
+		out.println("--------------------");
+		out.printf(" 10問中%d 問 正解です \n", cnt);
+		out.println("--------------------");
 		scan.close();
 	}
 }
