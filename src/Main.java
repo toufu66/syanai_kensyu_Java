@@ -10,6 +10,6 @@ public class Main {
 		out.printf("円周率は%.2fです\n",Math.PI);
 		out.print("C:\\に\"フォルダ\"を作成\n");
 		out.printf("%dを3で割ったあまりは%dです\n", num,num%3);
-		out.printf("平均点は%.2f です", (double)(kokugo+sansu)/2);
+		out.printf("平均点は%.2f です", (kokugo+sansu)/2.);
 	}
 }
