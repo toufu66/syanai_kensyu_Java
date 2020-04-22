@@ -4,6 +4,6 @@ public class Main {
 		int month = 4;
 		int day = 22;
 		out.printf("今日は%d月%d日です\n",month,day);
-		out.printf("円周率は%.2fです",Math.PI);
+		out.printf("円周率は%.2fどぇす",Math.PI);
 	}
 }
