@@ -20,7 +20,7 @@ if (i != 10) {
 				cnt++;
 				out.printf("正解です。あと%d問\n",10-i);
 			}else  {
-				out.printf("残念、間違いです正解は%d です。あと%d問\n",ans,10-i);
+				out.printf("残念、間違いです。正解は %d です。あと%d問\n",ans,10-i);
 			}
 }else {
 
@@ -28,7 +28,7 @@ if (i != 10) {
 		out.printf("正解です。これで終了です\n\n",10-i);
 		cnt++;
 	}else  {
-		out.printf("残念、間違いです。これで終了です\n\n",ans,10-i);
+		out.printf("残念、間違いです。正解は %d です。これで終了です\n\n",ans,10-i);
 	}
 
 }
