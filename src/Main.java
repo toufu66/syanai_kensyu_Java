@@ -6,10 +6,13 @@ public class Main {
 		int num = 10;
 		int kokugo = 70;
 		int sansu = 75;
+		int num1 = 3;
+		int num2 = 5;
 		out.printf("今日は%d月%d日です\n",month,day);
 		out.printf("円周率は%.2fです\n",Math.PI);
 		out.print("C:\\に\"フォルダ\"を作成\n");
 		out.printf("%dを3で割ったあまりは%dです\n", num,num%3);
-		out.printf("平均点は%.2f です", (kokugo+sansu)/2.);
+		out.printf("平均点は%.2f です\n", (kokugo+sansu)/2.);
+		out.printf("num1とnum2の足し算の結果:%d",num1+num2 );
 	}
 }
