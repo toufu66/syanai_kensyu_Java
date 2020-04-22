@@ -1,4 +1,6 @@
 import static java.lang.System.*;
+
+import java.util.Random;
 public class Main {
 	public static void main(String[] args) {
 		int month = 4;
@@ -8,7 +10,8 @@ public class Main {
 		int sansu = 75;
 		int num1 = 3;
 		int num2 = 5;
-		int r = new java.util.Random().nextInt(6) + 1;
+		Random rand = new Random();
+		int r = rand.nextInt(6) + 1;
 		out.printf("今日は%d月%d日です\n",month,day);
 		out.printf("円周率は%.2fです\n",Math.PI);
 		out.print("C:\\に\"フォルダ\"を作成\n");
