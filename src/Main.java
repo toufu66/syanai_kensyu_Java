@@ -13,6 +13,6 @@ public class Main {
 		out.print("C:\\に\"フォルダ\"を作成\n");
 		out.printf("%dを3で割ったあまりは%dです\n", num,num%3);
 		out.printf("平均点は%.2f です\n", (kokugo+sansu)/2.);
-		out.printf("num1とnum2の足し算の結果:%d",num1+num2 );
+		out.printf("num1:%dとnum2:%dの足し算の結果:%d",num1,num2,num1+num2 );
 	}
 }
