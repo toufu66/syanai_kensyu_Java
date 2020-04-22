@@ -13,25 +13,26 @@ public class Kuku {
 			int num2 = rand.nextInt(9)+1;
 			out.printf("第%d問 %d x %d =", i,num1,num2);
 			int ans = num1 * num2;
-			int usrAns = scan.nextInt();
 
-if (i != 10) {
-			if ((ans == usrAns)) {
-				cnt++;
-				out.printf("正解です。あと%d問\n",10-i);
-			}else  {
-				out.printf("残念、間違いです。正解は %d です。あと%d問\n",ans,10-i);
+			String usrAns_ = scan.nextLine();
+			String[] ua=usrAns_.split(" ",-1);
+			int usrAns=Integer.parseInt(ua[0]);
+			if (i != 10) {
+				if ((ans == usrAns)) {
+					cnt++;
+					out.printf("正解です。あと%d問\n",10-i);
+				}else  {
+					out.printf("残念、間違いです。正解は %d です。あと%d問\n",ans,10-i);
+				}
+			}else {
+				if ((ans == usrAns)) {
+					out.printf("正解です。これで終了です\n\n",10-i);
+					cnt++;
+				}else  {
+					out.printf("残念、間違いです。正解は %d です。これで終了です\n\n",ans,10-i);
+				}
+
 			}
-}else {
-
-	if ((ans == usrAns)) {
-		out.printf("正解です。これで終了です\n\n",10-i);
-		cnt++;
-	}else  {
-		out.printf("残念、間違いです。正解は %d です。これで終了です\n\n",ans,10-i);
-	}
-
-}
 		}
 		out.println("--------------------");
 		out.printf(" 10問中%d 問 正解です \n", cnt);
