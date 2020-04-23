@@ -13,7 +13,7 @@ public class Hairetu3 {
 		for (int i:nums) {
 			sum+=i;
 		}
-		System.out.print("\n"+sum);
+		System.out.print(sum);
 		System.out.println("\naaaaaaaaaaaaa");
 
 		int cnt=0;
@@ -23,7 +23,7 @@ public class Hairetu3 {
 			}
 		}
 
-		System.out.print("\n"+cnt);
+		System.out.print(cnt);
 		System.out.println("\naaaaaaaaaaaaa");
 
 		for (int i=0;i<5;i++) {
@@ -43,6 +43,7 @@ public class Hairetu3 {
 
 		}
 		System.out.print(mx);
+		System.out.println("\naaaaaaaaaaaaa");
 
 	}
 
