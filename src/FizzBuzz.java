@@ -1,0 +1,22 @@
+import static java.lang.System.*;
+
+
+public class FizzBuzz {
+
+	public static void main(String[] args) {
+for (int i =1;i <=30;i++) {
+
+	if((i%3 == 0)&&(i%5 == 0)) {
+		out.println("FizzBuzz!!");
+	}else if( (i%3==0)&&(i%5 != 0)) {
+		out.println("Fizz!!");
+	}else if( (i%3!=0)&&(i%5 == 0)) {
+		out.println("Buzz!!");
+	}else {
+		out.println(i);
+	}
+}
+
+	}
+
+}
