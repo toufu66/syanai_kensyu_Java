@@ -45,6 +45,7 @@ public class Hairetu3 {
 		System.out.print(mx);
 		System.out.println("\naaaaaaaaaaaaa");
 
+
 	}
 
 }
