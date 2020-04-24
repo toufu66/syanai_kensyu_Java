@@ -13,5 +13,4 @@ public class Coin {
 		out.printf("合計%d円",sum);
 		scan.close();
 	}
-
 }
