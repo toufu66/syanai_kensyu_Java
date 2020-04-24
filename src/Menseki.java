@@ -10,7 +10,7 @@ public class Menseki {
 			out.println(circleArea(i));
 		}
 
-		out.print("2問目  ");
+		out.print("3問目  ");
 		int[] rs= {3,8,20};
 		for(int i:rs) {
 			out.println(circleArea(i));
