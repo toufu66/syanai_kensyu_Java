@@ -24,8 +24,6 @@ public class Method {
            return "午前";
        }else {
            return "午後";
-    }
-
-    }
-    
+        }
+    }    
 }
