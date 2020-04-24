@@ -1,6 +1,4 @@
 import static java.lang.System.*;
-
-
 public class FizzBuzz {
 
 	public static void main(String[] args) {

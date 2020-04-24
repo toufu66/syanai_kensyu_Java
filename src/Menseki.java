@@ -1,6 +1,5 @@
 import static java.lang.System.*;
 public class Menseki {
-
 	public static void main(String[] args) {
 		int r=10;
 		out.print("1問目  ");

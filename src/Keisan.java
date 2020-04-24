@@ -1,5 +1,4 @@
 import static java.lang.System.*;
-
 import java.util.Scanner;
 public class Keisan {
 	public static void main(String[] args) {

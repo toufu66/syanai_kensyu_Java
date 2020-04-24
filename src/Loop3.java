@@ -1,5 +1,4 @@
 import static java.lang.System.*;
-
 import java.util.Scanner;
 
 public class Loop3 {
@@ -39,6 +38,6 @@ public static void main(String[] args) {
 		out.printf("%d ",i);
 
 	}
-
+	scan.close();
 }
 }

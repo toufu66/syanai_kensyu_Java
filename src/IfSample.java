@@ -1,7 +1,5 @@
 import static java.lang.System.*;
-
 import java.util.Scanner;
-
 public class IfSample {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
