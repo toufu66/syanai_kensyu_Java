@@ -12,7 +12,7 @@ public class Method {
 
     public static boolean evenNum(int num){ 
         //if Number is even Number, return True
-        return (num%2 != 0);
+        return (num%2 == 0);
 
     }
 }
