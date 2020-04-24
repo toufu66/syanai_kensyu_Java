@@ -5,11 +5,16 @@ public class Gengo{
     
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        out.println("元号を入力 1:昭和 2:平成 3:令和");
+        String[] gengos={"昭和","平成","令和"};
+        out.println("元号を入力");
+        int i = 0;
+        for (String gi:gengos){
+            out.printf("%s : %d\n",gi,i++);
+        }
         int g=scan.nextInt() - 1;
         out.println("年を入力　（ただし、元年は1で）");
         int y=scan.nextInt();
-        out.print(getGengoName(g)+ y +"年は");
+        out.print(getGengoName(gengos,g)+ y +"年は");
         out.println("西暦"+getSeireki(g, y)+"年");
         scan.close();        
     }
@@ -26,8 +31,8 @@ public class Gengo{
         }    
     }
 
-    public static String getGengoName(int i){
-        String[] gengos={"昭和","平成","令和"};
+    public static String getGengoName(String[] gengos,int i){
+        
         return gengos[i];
     }
 
