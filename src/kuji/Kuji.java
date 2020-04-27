@@ -1,5 +1,4 @@
 package kuji;
-
 import static java.lang.System.*;
 //import java.util.Random;
 //import java.util.Scanner;

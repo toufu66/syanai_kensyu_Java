@@ -1,7 +1,6 @@
 package kuji;
 import static java.lang.System.*;
 
-
 public class Main {
     public static void main(String[] args){
         KujiCheck k = new KujiCheck();    
@@ -17,7 +16,7 @@ public class Main {
         Kuji kuji3= new Kuji();
         kuji3.num = 654321;
         k.check(kuji3);
-        
+
         out.println(kuji1.kekka+kuji1.money+"円");
         out.println(kuji2.kekka+kuji2.money+"円");
         out.println(kuji3.kekka+kuji3.money+"円");

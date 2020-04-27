@@ -1,5 +1,4 @@
 package kuji;
-
 public class KujiCheck {
     
     void check(Kuji k){
