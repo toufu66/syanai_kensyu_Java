@@ -1,7 +1,6 @@
 import static java.lang.System.*;
 import java.util.Scanner;
 public class Coin {
-
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int[] coins = {500,100,50,10,5,1};
