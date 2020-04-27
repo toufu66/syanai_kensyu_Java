@@ -12,7 +12,7 @@ public class St {
         return(this.koku + this.mt + this.sya);
     }
     double ave(){
-        return sum()/3;
+        return sum()/3.;
     }
 
 }
