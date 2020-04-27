@@ -8,18 +8,20 @@ public class Main {
         Kuji kuji1= new Kuji();
         kuji1.num = 123456;
         k.check(kuji1);
+        out.println(kuji1.kekka+k.money+"円");
+
 
         Kuji kuji2= new Kuji();
         kuji2.num = 101012;
         k.check(kuji2);
+        out.println(kuji2.kekka+k.money+"円");
+
 
         Kuji kuji3= new Kuji();
         kuji3.num = 654321;
         k.check(kuji3);
 
-        out.println(kuji1.kekka+kuji1.money+"円");
-        out.println(kuji2.kekka+kuji2.money+"円");
-        out.println(kuji3.kekka+kuji3.money+"円");
+        out.println(kuji3.kekka+k.money+"円");
 
         }
 }

@@ -6,7 +6,7 @@ public class Kuji {
 
     int num;
     String kekka;
-    int money;
+    //int money;
     void show(){
 
         out.printf("%d :結果　%s",this.num,this.kekka);
