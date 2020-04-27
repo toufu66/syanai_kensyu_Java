@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "seiseki.Main",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "kuji.Main",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "obj.Main",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FizzBuzz",
             "request": "launch",
             "mainClass": "FizzBuzz",
