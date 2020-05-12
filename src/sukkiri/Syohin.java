@@ -2,8 +2,16 @@ package sukkiri;
 
 public class Syohin {
     String name;
-    int price;  // Syohin s = new Syohin(); s.price = 100; s.show(); 
+    int price;   
     int tax;
+    public Syohin(){
+        this("hoge", 0, 0 );
+    }
+    public Syohin(String n,int p,int t){
+        this.name = n;
+        this.price = p;
+        this.tax = t; 
+    }
     void show(){
 
         System.out.printf("%s : %d 円",this.name,this.price);

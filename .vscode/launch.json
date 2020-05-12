@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SalesMain",
+            "request": "launch",
+            "mainClass": "sales.SalesMain",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Emain",
+            "request": "launch",
+            "mainClass": "db.Emain",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DBSample",
+            "request": "launch",
+            "mainClass": "db.DBSample",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EventMain",
+            "request": "launch",
+            "mainClass": "event.EventMain",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RentMain",
+            "request": "launch",
+            "mainClass": "rental.RentMain",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SS",
+            "request": "launch",
+            "mainClass": "sukkiri.SS",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dmain",
+            "request": "launch",
+            "mainClass": "drink.Dmain",
+            "projectName": "Lesson"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "seiseki.Main",
